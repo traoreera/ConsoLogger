@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "conso-logger"
+version = "1.0.0"
+description = "Un outil de diagnostic et d'analyse des consommations électriques"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20"
+matplotlib = "^3.4"
+filterpy = "^1.4"
+serial = "^3.5"
+csv = "^1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+pytest-cov = "^2.12"
+hypothesis = "^6.137.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
