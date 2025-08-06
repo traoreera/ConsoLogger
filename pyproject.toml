@@ -4,12 +4,12 @@ version = "1.0.0"
 description = "Un outil de diagnostic et d'analyse des consommations électriques"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
+flet = "^0.22.0"
 numpy = "^1.20"
 matplotlib = "^3.4"
 filterpy = "^1.4"
-serial = "^3.5"
-csv = "^1.0"
+pyserial = "^3.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
