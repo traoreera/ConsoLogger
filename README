@@ -110,3 +110,57 @@ The application generates three files:
 ├── pyproject.toml          # Project metadata and dependencies for Poetry
 └── README.md               # This file
 ```
+=======
+# ConsoLogger
+
+## Overview
+
+ConsoLogger is a Python-based tool for analyzing and diagnosing electrical consumption. It reads data from the INA219 sensor and records it in a CSV file. The tool provides various features, including Kalman filtering to reduce noise and predictions for future consumption.
+
+## Features
+
+- Serial communication with INA219 sensor
+- Data logging to a CSV file
+- Kalman filtering for voltage, current, and power
+- Statistical analysis of consumption data
+- Graph plotting with predicted values
+- Battery autonomy estimation
+
+## Installation
+
+1. Clone this repository.
+2. Ensure you have Python 3.x installed.
+3. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Configure the serial port, baud rate, and other parameters in the `ConsoLogger` class or via the Flet UI.
+2. Run the main application:
+   ```bash
+   python src/main.py
+   ```
+3. Follow on-screen instructions to start measurements and view results.
+
+## Components
+
+- **ConsoLogger**: The main class responsible for reading data, filtering, and analysis.
+- **Flet UI**: Provides a graphical interface to configure parameters and view results.
+- **Kalman Filter**: Used for smoothing the data.
+
+## Testing
+
+Unit tests are available in the `src/tests` directory. Run tests using:
+```bash
+python -m unittest discover -s src/tests
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
