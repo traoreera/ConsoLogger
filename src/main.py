@@ -1,7 +1,7 @@
 import threading
 
 import flet as ft
-from flet import Colors as colors
+from flet import colors
 
 from consol import ConsoLogger
 
