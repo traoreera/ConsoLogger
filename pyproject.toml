@@ -5,7 +5,7 @@ description = "Un outil de diagnostic et d'analyse des consommations électrique
 
 [tool.poetry.dependencies]
 python = "^3.9"
-flet = "^0.22.0"
+flet = "^0.28.3"
 numpy = "^1.20"
 matplotlib = "^3.4"
 filterpy = "^1.4"
