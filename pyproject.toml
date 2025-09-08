@@ -12,7 +12,7 @@ filterpy = "^1.4"
 pyserial = "^3.5"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2"
+pytest = "^8.4"
 pytest-cov = "^2.12"
 hypothesis = "^6.137.1"
 
